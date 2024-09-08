@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ScreenStreaming"
+    namespace = "com.example.screenstream"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ScreenStreaming"
-        minSdk = 21
+        applicationId = "com.example.screenstream"
+        minSdk = 27
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-    implementation (libs.nanohttpd)
+
+    implementation(libs.nanohttpd)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

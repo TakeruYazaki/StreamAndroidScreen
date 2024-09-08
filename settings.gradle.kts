@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "screenstreaming2"
+rootProject.name = "screenrecord2"
 include(":app")
  
