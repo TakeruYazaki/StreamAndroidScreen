@@ -9,7 +9,7 @@ Androidスマホの画面をローカルネットワーク内でHTTP、MJPEGで�
 5. 配信を終了するときは、「アプリ情報→強制終了」としてください。(要改良)
 
 ## How to connect Unity
-* 以下のサイトのアセットを使うとUnity上で映像を再生できます。
+* [このサイト](https://hammmm.hatenablog.com/entry/2016/12/15/204514)のアセットを使うとUnity上で映像を再生できます。
 * ただし、現状はandroidとwindowsへのビルドしか対応していないようです。([libjpeg-turbo](https://libjpeg-turbo.virtualgl.org/)まわりの設定を変えればiOSでも使えるかもしれません。)
 * Questで使えるかは未確認です。Androidでも[XREAL](https://www.xreal.com/)用アプリとしてビルドすると再生できなかったです。
 
