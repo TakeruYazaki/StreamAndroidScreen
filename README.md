@@ -1,6 +1,6 @@
 # StreamAndroidScreen
 
-Androidスマホの画面をローカルネットワーク内でHTTP、MJPEGでリアルタイム配信するものです。
+Androidスマホの画面をローカルネットワーク内でHTTP、MJPEGでリアルタイム配信するものです。スマホ画面をシェアするアプリはzoomをはじめとしてたくさんあるのですが、専用アプリを使うため拡張性が低かったり、遅延があったりしたため、自分で作りました。
 
 ## How to Use
 1. [Android Studio](https://developer.android.com/studio)で開いて、Androidスマホにビルドします。
