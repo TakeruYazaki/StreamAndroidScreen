@@ -14,7 +14,7 @@ Androidスマホの画面をローカルネットワーク内でHTTP、MJPEGで�
 * Questで使えるかは未確認です。Androidでも[XREAL](https://www.xreal.com/)用アプリとしてビルドすると再生できなかったです。
 
 ## Points to note
-* ScreenStreamingService.ktファイルを編集すると、配信する領域を編集できます。
+* ScreenStreamingService.ktファイルを編集すると、配信する画面領域を編集できます。
 * ファイル名が"screenrecord2"になっていたりしますが、ストリーミングのみで録画はできません。
 * HTTP&MJPEGで配信していますが、フレームレートや画質が重要な場合は、RTSP方式やH.264エンコードにしたほうが良いかもしれないです。今回は受信アプリの作製しやすさを優先しました。
 * KotlinでAndroidアプリを作るのはほぼ初めてだったのでファイル構造やスクリプトはいい加減です。
