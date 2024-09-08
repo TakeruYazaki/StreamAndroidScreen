@@ -1,4 +1,4 @@
-package com.example.screenstreaming2
+package com.example.ScreenStreaming
 
 import android.graphics.Bitmap
 import fi.iki.elonen.NanoHTTPD

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.screenstreaming2"
+    namespace = "com.example.ScreenStreaming"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.screenstreaming2"
+        applicationId = "com.example.ScreenStreaming"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

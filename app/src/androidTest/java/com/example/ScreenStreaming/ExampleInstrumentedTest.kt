@@ -1,4 +1,4 @@
-package com.example.screenstreaming2
+package com.example.ScreenStreaming
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

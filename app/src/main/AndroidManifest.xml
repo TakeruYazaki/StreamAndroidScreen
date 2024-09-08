@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.screenstreaming2">
+    package="com.example.ScreenStreaming">
 
     <!-- インターネットアクセスのためのパーミッション -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -20,7 +20,7 @@
 
         <!-- メインのアクティビティ -->
         <activity
-            android:name="com.example.screenstreaming2.ScreenCaptureActivity"
+            android:name="com.example.ScreenStreaming.ScreenCaptureActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
 
         <!-- MediaProjectionService の宣言 -->
         <service
-            android:name="com.example.screenstreaming2.MediaProjectionService"
+            android:name="com.example.ScreenStreaming.MediaProjectionService"
             android:foregroundServiceType="mediaProjection"
             android:permission="android.permission.FOREGROUND_SERVICE"
             android:exported="false" />
